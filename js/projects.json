@@ -1,0 +1,140 @@
+var python = [
+	{
+		"name": "Piano Tiles",
+		"image": "images/project_covers/pianotiles.png",
+		"description": "This is an implementation of Piano Tiles using pygame. I made this as a part of my 11th grade computer science project.",
+		"tags": ["python", "pygame"],
+		"github": "https://github.com/utkarsh23/Piano-Tiles",
+		"download": "",
+		"link": ["", "", ""],
+	},
+	{
+		"name": "Space Warrior",
+		"image": "images/project_covers/spacewarrior.png",
+		"description": "Objective of this game is to dodge asteroids that are moving towards you. I made this using pygame as a part of my 11th grade computer science project.",
+		"tags": ["python", "pygame"],
+		"github": "https://github.com/utkarsh23/Space-Warrior",
+		"download": "",
+		"link": ["", "", ""],
+	},
+	{
+		"name": "School Timetable Generator",
+		"image": "images/project_covers/timetable.png",
+		"description": "This is a timetable generator which generates random timetables everytime you run this program. It takes care of certain conditions that are given in the program. This was my 12th grade computer science project. ",
+		"tags": ["python"],
+		"github": "https://github.com/utkarsh23/School-Timetable-Generator",
+		"download": "",
+		"link": ["", "", ""],
+	}
+]
+
+var ml = [
+	{
+		"name": "Puzzle8",
+		"image": "images/project_covers/puzzle8.png",
+		"description": "This android app creates a 3x3 sliding puzzle out of pictures you take using your phone. If you aren't able to solve this, on tapping the solve button, the A* algorithm solves this puzzle for you.",
+		"tags": ["AI", "Android"],
+		"github": "https://github.com/utkarsh23/Puzzle-8",
+		"download": "",
+		"link": ["", "", ""],
+	},
+	{
+		"name": "Digit classifier",
+		"image": "images/project_covers/digit.png",
+		"description": "This is a digit classifier that uses MNIST database and implements Artificial Neural Networks (ANN) using numpy, Theano and Lasagne. In layman terms, the machine is trained to recognize a bunch of handwritten digits and then made to predict another bunch of handwritten digits and the final result is the percentage of right predictions.",
+		"tags": ["ML", "Python"],
+		"github": "https://github.com/utkarsh23/ACM-SMP-ML",
+		"download": "",
+		"link": ["", ""],
+	},
+	{
+		"name": "Arduino Obstacle Tackling Robot",
+		"image": "images/project_covers/arduino.jpg",
+		"description": "For my school's science exhibition I created an obstacle tackling robot with a bunch of friends using Arduino as its microcontroller and IR sensors.",
+		"tags": ["AI","Robotics", "Arduino"],
+		"github": "https://github.com/utkarsh23/Obstacle-Tackling-Autonomous-Robot",
+		"download": "",
+		"link": ["https://vimeo.com/225901429", "VIDEO", "<i class=\"material-icons\">&#xE071;</i>"], //EMBED VIDEO
+	},
+]
+
+var web_dev = [
+	{
+		"name": "Raj Housing",
+		"image": "images/project_covers/rajhousing.png",
+		"description": "Raj Housing is a group of real estate companies based in Mumbai. I've done front-end web development internship at this company.",
+		"tags": ["HTML", "CSS", "Javascript", "Materialize", "Front-End"],
+		"github": "https://github.com/piyushnbansal/RajHousing",
+		"download": "",
+		"link": ["https://rajhousing.in/", "WEBSITE", "<i class=\"material-icons\">&#xE89E;</i>"],
+	},
+	{
+		"name": "NITK Website",
+		"image": "images/project_covers/nitk.png",
+		"description": "I was a part of the team that worked on front-end of our college website.",
+		"tags": ["HTML", "CSS", "Javascript", "Bootstrap", "Front-End"],
+		"github": "",
+		"download": "",
+		"link": ["", "", ""],
+	},
+	{
+		"name": "Personal Website",
+		"image": "images/project_covers/personalwebsite.png",
+		"description": "This is basically my website, the website you are viewing this page on. I've used the materialize framework and a few other javascript libraries.",
+		"tags": ["HTML", "CSS", "Javascript", "Materialize", "Front-End"],
+		"github": "https://github.com/utkarsh23/utkarsh23.github.io",
+		"download": "",
+		"link": ["https://utkarsh23.github.io/", "WEBSITE", "<i class=\"material-icons\">&#xE89E;</i>"],
+	},
+	{
+		"name": "ChangePay",
+		"image": "images/project_covers/changepay.jpg",
+		"description": "ChangePay is a college startup which aims to build a Cash-less, Card-less and Mobile-less payment system. I've worked on the back-end of their website.",
+		"tags": ["python", "django", "HTML", "CSS", "Bootstrap", "Back-End"],
+		"github": "https://github.com/salman-bhai/ChangePay",
+		"download": "",
+		"link": ["", "", ""],
+	},
+]
+
+var cp = [
+	{
+		"name": "ProjectEuler",
+		"image": "images/project_covers/projecteuler.jpg",
+		"description": "ProjectEuler is a website consisting of mathematical and programming problems. As of 4th July 2017, I am in top 100 in India according to Project Euler's statistics. You can drop me a mail if you're looking for my Friend Key.",
+		"tags": ["python"],
+		"github": "",
+		"download": "",
+		"link": ["https://projecteuler.net/profile/utkarsh_23.png", "PROJECT EULER PROFILE PNG", "<i class=\"material-icons\">&#xE8AA;</i>"],
+	},
+	{
+		"name": "HackerEarth",
+		"image": "images/project_covers/hackerearth.png",
+		"description": "These are my solutions to HackerEarth problems. You can view them in the github link below.",
+		"tags": ["python", "C/C++"],
+		"github": "https://github.com/utkarsh23/Competitive-Coding",
+		"download": "",
+		"link": ["", "", ""],
+	},
+	{
+		"name": "HackerRank",
+		"image": "images/project_covers/hackerrank.jpg",
+		"description": "These are my solutions to HackerEarth problems. You can view them in the github link below.",
+		"tags": ["python", "C/C++"],
+		"github": "https://github.com/utkarsh23/Competitive-Coding",
+		"download": "",
+		"link": ["", "", ""],
+	},
+]
+
+var others = [
+	{
+		"name": "Flipkart Web Scraper",
+		"image": "images/project_covers/flipkart.jpg",
+		"description": "This is a Flipkart scraper made in Java using Selenium to automate web browsers and a headless browser PhantomJS. It scrapes name and price of each product brandwise in the categories of Mobile and Laptop.",
+		"tags": ["Java", "Selenium", "PhantomJS"],
+		"github": "https://github.com/utkarsh23/Flipkart-Scraper",
+		"download": "",
+		"link": ["", "", ""],
+	},
+]

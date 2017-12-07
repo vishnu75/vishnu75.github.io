@@ -1,0 +1,213 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+}
+
+#particles-js, #particles-js > canvas {
+	position: absolute;
+	width: 100%;
+	height: 63vh;
+	background-color: #1a237e;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.beginning-section {
+	width: 100%;
+	height: 63vh;
+}
+
+.coding-font {
+	width: 100%;
+	color: white;
+	margin: 0;
+	font-size: 6vh;
+	position: absolute;
+	text-shadow: #000 0px 1px 2px;
+	top: 10vh;
+	pointer-events: none;
+}
+
+.profile {
+	margin: auto;
+	height: 25vh;
+	margin-bottom: 2vh;
+}
+
+.nav-color-change {
+	-webkit-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
+.nav-wrapper {
+	font-weight: 600;
+}
+
+.side-nav {
+	width: 35%;
+}
+
+#sidenav-overlay {
+	z-index: 1;
+}
+
+.side-nav > li > a {
+	color: white;
+	font-weight: 400;
+}
+
+.wctext {
+	font-family: 'Kurale', cursive;
+	font-size: 8.5vh;
+}
+
+.aboutme {
+	font-family: 'Patrick Hand SC', cursive;
+	color: #1a237e;
+	margin-bottom: 0;
+}
+
+.container > div > div > p {
+	line-height: 1.7;
+	text-align: justify;
+}
+
+#terminal-like {
+	margin-left: 2vw;
+	margin-right: 2vw;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: rgba(0, 0, 0, 0.8) 0px 20px 70px;
+}
+
+#black-screen {
+	border-radius: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	position: absolute;
+	top: 25px;
+	width: 100%;
+	height: 100%;
+}
+
+.det-div {
+	padding: 10px;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.2em;
+}
+
+#nitkgal{
+	height: 90vh;
+}
+
+#imggal {
+	position: relative;
+}
+
+.life {
+	position: absolute;
+	bottom: 7vh;
+	right: 10vw;
+	font-size: 6.5vh;
+	color: white;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.contact-para {
+	margin-bottom: 0;
+}
+
+.copyright-text {
+	font-size: 1.1rem;
+}
+
+.media-icons {
+	text-align: right;
+}
+
+/*blinking cursor css*/
+.typed-cursor{
+	opacity: 1;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+@keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+@-moz-keyframes blink{
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+/*end blinking cursor*/
+
+.typed-fade-out{
+	opacity: 0;
+	animation: 0;
+	transition: opacity .25s;
+}
+
+@media screen and (max-width: 992px) {
+	.coding-font {
+		top: 10vh;
+	}
+
+	.wctext {
+		font-size: 7.5vh;
+	}
+
+	#particles-js, #particles-js > canvas, .beginning-section {
+		height: 65vh;
+	}
+
+	#about-terminal {
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.coding-font {
+		top: 10vh;
+	}
+
+	.wctext {
+		font-size: 6.5vh;
+		line-height: 1;
+		margin-bottom: 5vh;
+	}
+
+	#particles-js, #particles-js > canvas, .beginning-section {
+		height: 55vh;
+	}
+
+	.profile {
+		height: 20vh;
+	}
+
+	#about-terminal, #black-screen, #terminal-like {
+		max-height: 450px;
+	}
+
+	.footer-contact {
+		margin-bottom: 10px;
+	}
+
+	.copyright-text {
+		align-items: center;
+		justify-content: center;
+	}
+
+	.media-icons {
+		text-align: center;
+	}
+}

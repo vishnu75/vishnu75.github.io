@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Projects</title>
 
 	<!-- Meta Tags -->
 	<meta charset="UTF-8">
@@ -13,35 +13,36 @@
 	<!-- CSS Files -->
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.0/vegas.min.css">
-	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="css/projects.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Quicksand|Kurale|Patrick+Hand+SC|Inconsolata" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kurale|Quicksand|Zilla+Slab|Fauna+One|Bitter" rel="stylesheet">
 
 	<!-- Javascript Files -->
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.4.0/vegas.min.js" type="text/javascript"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.7/typed.min.js" type="text/javascript"></script>
 	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" type="text/javascript"></script>
-	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/projects.json" type="text/javascript"></script>
+	<script src="js/projects.js" type="text/javascript"></script>
 </head>
 <body>
 	<header>
 		<div class="container" style="margin: 0;">
 			<div class="beginning-section">
-				<div id="particles-js">
+				<div id="bubbles-js">
 				</div>
 				<div class="navbar-fixed">
-					<nav class="transparent">
+					<nav class="navigation transparent">
 						<div class="nav-wrapper">
-							<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons nav-color-change">menu</i></a>
+							<a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
 							<ul class="right hide-on-med-and-down">
-								<li><a class="nav-color-change" href="index.html">Home</a></li>
-								<li><a class="nav-color-change" href="projects.html">Projects</a></li>
-								<li><a class="nav-color-change" href="resume.html">Resume</a></li>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="projects.html">Projects</a></li>
+								<li><a href="resume.html">Resume</a></li>
 							</ul>
-							<ul class="side-nav center-align indigo darken-4" id="mobile-demo">
+							<ul class="side-nav center-align" id="mobile-demo">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="projects.html">Projects</a></li>
 								<li><a href="resume.html">Resume</a></li>
@@ -50,42 +51,44 @@
 					</nav>
 				</div>
 				<div class="coding-font center-align">
-					<img src="images/profile.jpg" class="profile circle materialboxed">
-					<span class="wctext">Utkarsh Patil</span>
+					<span class="wctext">&lt;Projects/&gt;</span>
+					<br>
+					<span class="wctext-sub">Think. Create. Innovate.</span>
 				</div>
 			</div>
 		</div>
 	</header>
 	<main>
-		<div class="container" id="aboutmecontainer">
-			<h1 class="aboutme">About me</h1>
-			<hr>
-			<div class="row" style="margin-top: 30px; margin-bottom: 40px;">
-				<div class="col s12 m12 l6" id="about-terminal">
-					<div style="background-color: #DEDEDE;" id="terminal-like">
-						<center>Personal Details</center>
-						<div class="black white-text" id="black-screen">
-							<div class="det-div">
-								<span class="details-print"></span>
-							</div>
-						</div>
-					</div>
+		<div id="projectscontainer">
+			<div class="row">
+				<div class="col s12" style="padding: 0;">
+					<ul class="tabs">
+						<li class="tab col s2 l2 offset-l1">
+							<a href="#tab1" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Python">Python</a>
+						</li>
+						<li class="tab col s2 l2">
+							<a href="#tab5" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Artificial Intelligence / Machine Learning">AI / ML</a>
+						</li>
+						<li class="tab col s2 l2">
+							<a href="#tab2" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Web Development">Web Development</a>
+						</li>
+						<li class="tab col s2 l2">
+							<a href="#tab3" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Competitive Coding">Competitive Coding</a>
+						</li>
+						<li class="tab col s2 l2">
+							<a href="#tab4" class="tooltipped" data-position="top" data-delay="50" data-tooltip="Others">Others</a>
+						</li>
+					</ul>
 				</div>
-				<div class="col s12 m12 l6" id="aboutmecontent">
-					<p>
-						I'm Utkarsh. I am an undergraduate student at NITK, Surathkal pursuing B.Tech. in Information Technology. I like to think of myself as someone who is driven by curiosity. Pretty much everything I do revolves around the fact that I'm curious, which is also why I like to take up challenges because its the best way to find out all the wonderful things that one is capable of. This is what got me interested into technology. Centuries ago, who would have imagined that things like computers and mobile phones would even come into existence, let alone be so common. But here we are! How did technology as complex as this become so common? Capitalism. Of course it had to be! No matter how complex and expensive things are, capitalists always find a way to mass produce products and do other magical things to make products cheap and accessible to the masses. So this is how my interest in economics, and hence politics grew.<br>
-						I also love watching movies, TV shows and sports, especially football and cricket. Beautiful and artistic things fascinate me. I feel like the world does not appreciate art as much as it should, but I guess its because art is not really what the world really needs right now. I don't believe I'm very artistic, but I adore people who are.<br>
-						That's pretty much about me. If you're interested in collaborating with me, feel free to get in touch.
-					</p>
-				</div>
+				<div id="tab1" class="col s12"></div>
+				<div id="tab5" class="col s12"></div>
+				<div id="tab2" class="col s12"></div>
+				<div id="tab3" class="col s12"></div>
+				<div id="tab4" class="col s12"></div>
 			</div>
 		</div>
-		<div id="imggal">
-			<div id="nitkgal"></div>
-			<div class="life">Life at NITK</div>
-		</div>
 	</main>
-	<footer class="page-footer" style="background-color: #1a237e;">
+	<footer class="page-footer" style="background-color: #2c2e43;">
 		<div class="container">
 			<div class="row">
 				<div class="col l3 s12" id="inspired-id">
@@ -143,4 +146,3 @@
 		</div>
 	</footer>
 </body>
-</html>
